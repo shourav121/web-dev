@@ -9,8 +9,19 @@ h1{
     margin: 10px auto;
     background-color: azure;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
 
+}
+
+#vv{
+    flex-basis: 100px;
+    flex-grow: 10;
+}
+#iii{
+    flex-grow: 5;
 }
 
 #container div{
