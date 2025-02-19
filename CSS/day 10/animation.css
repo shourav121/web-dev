@@ -1,0 +1,14 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+}
+
+@keyframe fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+} 
