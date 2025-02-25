@@ -1,11 +1,14 @@
-let color="green";
+let color="greenf";
 if(color=="red"){
     console.log("stop");
 }
-if(color=="green"){
+ else if(color=="green"){
     console.log("go");
 }
-if(color=="yellow"){
+ else if(color=="yellow"){
     console.log("ready");
+}
+else{
+    console.log("unknown")
 }
 
