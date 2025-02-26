@@ -5,7 +5,7 @@ if (marks>=44){
         console.log("a")
     }
     else{
-        ("o")
+        ("opps")
     }
 }
 else{
