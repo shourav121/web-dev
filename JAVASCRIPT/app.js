@@ -68,3 +68,35 @@ function outer(){
     }
     inner();
 }
+
+
+
+//nameless function:(function expression)
+
+let sum = function(a,b){
+    return a+b;
+}
+//sum(1,7)-----.8 answer
+
+
+let nae =function()
+{
+    console.log("ffff")
+}
+//nae()---.>fff
+
+
+//higher order function------.
+
+function multiple(func,count){//hof
+    for(i=1;i<=count;i++){
+        func()
+    }
+}
+
+
+let greet = function(){
+    console.log("hello");
+}
+
+multiple(greet,8)
