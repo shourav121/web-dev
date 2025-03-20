@@ -52,3 +52,13 @@ let finalVal = number.reduce((res,el)=>{
 console.log(finalVal);
 
 //ye tab run karega jab iske uppar ka sara comment me hoga|^
+
+
+//check if all numbers in our arrays are multiple of 10 or not?
+
+let numbs = [10,20,30,40];
+let answ= numbs.every((el)=> el%10==0);
+console.log(answ);//it return tru in console..
+
+//create a function to find the min number in an array..?
+
