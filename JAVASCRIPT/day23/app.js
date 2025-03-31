@@ -23,8 +23,9 @@ for(btn of btns){
     //     console.log("touch the btn"); 
     // }
 
-    btn.addEventListener("click",sayhello);
-    btn.addEventListener("click",sayname);
+    
+    btn.addEventListener("dblclick",sayname);
+    // btn.addEventListener("click",sayhello);
 }
 
  
