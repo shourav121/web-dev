@@ -68,8 +68,56 @@ btn.addEventListener("click",function(){
     console.log("button clicked");
 });
 
+// let inp=document.querySelector("input");
+// inp.addEventListener("keydown",function(event){
+//     console.log("key->",event.key)
+//     console.log("code->",event.code); 
+//     console.log(event); 
+//     console.log("key was pressed");
+// });
+
+
 let inp=document.querySelector("input");
 inp.addEventListener("keydown",function(event){
-    console.log(event);
-    console.log("key was pressed");
+    console.log("event->",event.code)
+    if(event.code=="KeyU"){
+        console.log("move up")
+    }
+    else if(event.code=="KeyD"){
+        console.log("move down")
+    }
+    else if(event.code=="KeyL"){
+        console.log("move left")
+    }
+    else if(event.code=="KeyR"){
+        console.log("move right")
+    }
 });
+
+//!form events
+// form=document.querySelector("form");
+// form.addEventListener("submit",function(event)
+
+
+// //!for stopping action for going next page please add event.PreventDefault();
+
+
+// {
+//     event.preventDefault();
+//     alert("form submitted");
+// });
+
+
+//!Extracting from data
+
+let form=document.querySelector("form");
+form.addEventListener("submit",function(event){
+    event.preventDefault();
+
+    let inp=document.querySelector("input");
+    console.dir(inp);
+    console.log(inp.value); 
+});
+
+
+//!more events
